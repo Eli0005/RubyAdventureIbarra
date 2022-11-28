@@ -21,7 +21,7 @@ public class RubyControler : MonoBehaviour
         vector2 position = transform.position;
 
         //create horizontal and vertical movement
-        postion.x = position.x + 3.0f * horizontal * Time.delta
-        postion.y = postion.y + 3.0f * vertical * time.delta
+        position.x = position.x + 3.0f * horizontal * Time.delta;
+        position.y = position.y + 3.0f * vertical * Time.delta;
     }
 }
