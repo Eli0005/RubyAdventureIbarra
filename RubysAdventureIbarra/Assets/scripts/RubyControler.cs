@@ -7,7 +7,9 @@ public class RubyControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Vector2 postion = transform.position;
+        position.x = position.x + 0.1f;
+        transform.position = position;
     }
 
     // Update is called once per frame
